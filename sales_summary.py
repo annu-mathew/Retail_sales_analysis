@@ -1,0 +1,12 @@
+import pandas as pd
+df=pd.read_csv("../data/retail_sales_cleaned.csv")
+total_revenue=df["Total Amount"].sum()
+total_transactions=df["Transaction ID"].nunique()
+total_items_sold=df["Quantity"].sum()
+total_customers=df["Customer ID"].nunique()
+print("RETAIL SALES SUMMARY")
+print("-----------------------")
+print("Total Revenue:",total_revenue)
+print("Total Transactions:",total_transactions)
+print("Total Items Sold:",total_items_sold)
+print("Total Customers:",total_customers)
