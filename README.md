@@ -67,3 +67,10 @@ How to Run
 Conclusion
 
 This project demonstrates how Python can be used to explore retail data, calculate sales metrics, and visualize patterns that support business understanding.
+
+## Project Demonstration
+[Watch the Project Demo](./project_demo.mp4)
+
+
+
+
